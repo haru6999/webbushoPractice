@@ -23,3 +23,42 @@ html,body{
 *{
   box-sizing:border-box;
 }
+.content{
+  position: relative;
+  width:500px;
+  height:500px;
+  transition: .8s ;
+}
+.content:hover{
+  transform: scale(.9,.9);
+  opacity: .6;
+}
+img{
+  width:500px;
+  height:500px;
+  object-fit: cover;
+  position: absolute;
+}
+p{
+  position: absolute;
+  width:500px;
+  top:0;
+  left:0;
+  text-align: center;
+  color:white;
+  font-family : "TsukuARdGothic-Regular",sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  animation: sample infinite 3s;
+}
+@keyframes sample {
+  0%{
+    color: white;
+  }
+  50%{
+    color:var(--mainnavy);
+  }
+  100%{
+    color: white;
+  }
+}
