@@ -16,30 +16,10 @@
   font-family: 'Phenomena-Regular';
   src:url('../../fonts/Phenomena-Regular.ttf');
 }
-html,body,main{
+html,body{
   margin: 0 auto;
   width:100vw;
 }
 *{
   box-sizing:border-box;
-}
-h1{
-  text-align: center;
-  width:100%;
-  color:var(--maingreen);
-  font-family: 'Phenomena-Bold',sans-serif;
-}
-ul{
-  list-style: none;
-  padding: 0;
-}
-li{
-  float:left;
-  width:calc(100% / 3 - 20px);
-  text-align: center;
-  padding:3px;
-  background-color: var(--maingray);
-  margin: 10px;
-  border:1px var(--maingreen) solid;
-  font-family : "TsukuARdGothic-Regular",sans-serif;
 }

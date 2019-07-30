@@ -19,27 +19,22 @@
 html,body,main{
   margin: 0 auto;
   width:100vw;
+  height:100vh;
 }
 *{
   box-sizing:border-box;
 }
-h1{
-  text-align: center;
-  width:100%;
-  color:var(--maingreen);
-  font-family: 'Phenomena-Bold',sans-serif;
+.imageBox{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-ul{
-  list-style: none;
-  padding: 0;
-}
-li{
-  float:left;
-  width:calc(100% / 3 - 20px);
-  text-align: center;
-  padding:3px;
-  background-color: var(--maingray);
-  margin: 10px;
-  border:1px var(--maingreen) solid;
-  font-family : "TsukuARdGothic-Regular",sans-serif;
+img{
+  width:500px;
+  height:500px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto;
 }
