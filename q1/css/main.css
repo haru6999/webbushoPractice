@@ -1,0 +1,44 @@
+:root{
+  --maingreen: #419e9d;
+  --mainred: #c74159;
+  --maingray: #c6cac7;
+  --mainnavy: #143265;
+  --subblue:#4088b1;
+  --subyellow:#ebd45d;
+  --subpink:#da7e82;
+}
+/* font */
+@font-face {
+  font-family: 'Phenomena-Bold';
+  src:url('../fonts/Phenomena-Bold.woff');
+}
+@font-face {
+  font-family: 'Phenomena-Regular';
+  src:url('../fonts/Phenomena-Regular.ttf');
+}
+html,body{
+  margin: 0 auto;
+  width:100vw;
+}
+*{
+  box-sizing:border-box;
+}
+h1{
+  text-align: center;
+  width:100%;
+  color:var(--maingreen);
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
+li{
+  float:left;
+  /*display: inline-block;*/
+  width:calc(100% / 3 - 20px);
+  text-align: center;
+  padding:3px;
+  background-color: var(--maingray);
+  margin: 10px;
+  border:1px var(--maingreen) solid;
+}

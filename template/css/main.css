@@ -1,0 +1,25 @@
+:root{
+  --maingreen: #419e9d;
+  --mainred: #c74159;
+  --maingray: #c6cac7;
+  --mainnavy: #143265;
+  --subblue:#4088b1;
+  --subyellow:#ebd45d;
+  --subpink:#da7e82;
+}
+/* font */
+@font-face {
+  font-family: 'Phenomena-Bold';
+  src:url('../fonts/Phenomena-Bold.woff');
+}
+@font-face {
+  font-family: 'Phenomena-Regular';
+  src:url('../fonts/Phenomena-Regular.ttf');
+}
+html,body{
+  margin: 0 auto;
+  width:100vw;
+}
+*{
+  box-sizing:border-box;
+}
